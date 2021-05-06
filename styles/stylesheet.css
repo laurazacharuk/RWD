@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'poppinsthin';
+    src: url('poppins-thin-webfont.woff2') format('woff2'),
+         url('poppins-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
