@@ -8,10 +8,10 @@ body {
     background-color: #2C2C2C;
   }
 
-  .intro__btn {
+  .intro__button {
       display: none;
   }
-  
+
   .header__nav {
     font-size: 2rem;
     padding: 1rem;
@@ -23,9 +23,9 @@ body {
     width: 15rem;
     text-align:start;
   }
-  
+
   /*Navigation*/ 
-  
+
   .header__nav label,
   .header__nav input {
       display: none;
@@ -38,7 +38,7 @@ body {
     height: 27px;
     float: right;
   }
-  
+
   .header__nav label::before {
     content: '';
     display: block;
@@ -55,16 +55,15 @@ body {
     margin-bottom: 0;
     display: none;
   }
-  
+
   .nav__item {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: rgb(199, 199, 199);
     padding: 1rem;
     display: block;
-    text-transform: uppercase;
   }
-  
+
   .header__nav input:checked+ul {
     display: block;
     width: 100%;
@@ -81,13 +80,11 @@ body {
     background: transparent;
     text-align: center;
   }
-  
-/*applab container*/
-  
 
+/*applab container*/
 
 .applab__container {
-    background-image: url(images/banner/banner.png);
+ background-color: #0C86F6;
     margin-top: -32px;
     height: 700px;
 }
@@ -252,7 +249,7 @@ padding-bottom: 20px;
 
 /*options*/
 
- 
+
 .options-box {
     display: flex;
     flex-wrap: wrap;
@@ -364,7 +361,7 @@ font-size: 20px;
 .content {
     height: 300px;
     background-color: #6DB9FE;
-   
+
 }
 
 .content__title {
@@ -374,7 +371,7 @@ font-size: 20px;
     padding-bottom: 30px;
     line-height: 30px;
     text-align: center;
-   
+
 }
 
 .content__pictures {
@@ -407,7 +404,7 @@ align-content: center;
 .footer__pictures{
     padding-top: 20px;
     display: flex;
-    
+
 }
 
 .footer__pictures--facebook,.footer__pictures--twitter, .footer__pictures--instagram {
@@ -447,3 +444,4 @@ align-content: center;
 #color {
     color: #1F6ED4;
 }
+

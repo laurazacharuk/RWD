@@ -6,16 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/mobile.css">
-    <link rel="stylesheet" media="(min-width: 900px)" href="./styles/desktop.css">
+    <link rel="stylesheet" media="(min-width: 900px)" href="./styles/tablet.css">
+    <link rel="stylesheet" media="(min-width: 1200px)" href="./styles/desktop.css">
+    <script src="https://kit.fontawesome.com/4639999961.js" crossorigin="anonymous"></script>
+
     <title>AppLab</title>
 </head>
 
 <body>
     <header class="header">
         <nav class="header__nav">
-            <h1 class="header__logo">Korona Gór Polski</h1>
+            <div class="header__logo">
+                <img src="./images/logo.png" width="100px" />
+            </div>
             <label for="menu"></label>
             <input type="checkbox" id="menu">
             <ul class="nav__list">
@@ -27,8 +31,194 @@
                 <li class="nav__item">Contact</li>
             </ul>
         </nav>
-        <button class="intro__btn">Download</button>
+        <div class="download__button">
+            <button class="intro__button">Download</button>
+        </div>
     </header>
+
+    <div class="applab__container">
+        <article class="applab__container--left">
+            <h1 class="applab__title">Promote Your App With Applab</h1>
+            <p class="applab__desc">Get more users to promote your app with this template</p>
+            <button class="button">Get Start Now</button>
+        </article>
+        <aside class="applab__container--right">
+            <img src="./images/phone.png" height="350px" />
+        </aside>
+    </div>
+
+    <section class="content__features">
+        <h1 class="header__features">Save your time to using applab</h1>
+        <div class="features__container">
+            <div class="features__intro">
+                <div class="content__ads--one">
+                    <img src="./images/icons/2.svg" height="50px" />
+                </div>
+                <h4 class="content__header"> Manage team in <br>One Place </h4>
+            </div>
+            <div class="features__intro">
+                <div class="content__ads--two">
+                    <img src="./images/icons/1.svg" height="50px" />
+                </div>
+                <h4 class="content__header"> All-powerful Pointing <br>has no control </h4>
+            </div>
+            <div class="features__intro">
+                <div class="content__ads--three">
+                    <img src="./images/icons/3.svg" height="50px" />
+                </div>
+                <h4 class="content__header"> Establish a solid <br>online presence </h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="features container--box">
+        <div class="box">
+            <h1 class="features__title">Features that give you real feel</h1>
+            <p class="features-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam suscipit
+                voluptatum aspernatur! Quam repellat nemo ad animi, delectus incidunt laboriosam aliquid, sequi numquam
+                mollitia assumenda. Optio natus quidem quae laborum?</p>
+            <button class="button-button">Download Now</button>
+        </div>
+        <div class="box-image">
+            <img src="./images/draw.png" width="90%" />
+        </div>
+    </section>
+
+    <section class="review">
+        <h4 class="review-title">Review from our regular users</h4>
+        <p class="review-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eaque quibusdam maxime esse
+            praesentium est temporibus iusto eius, commodi asperiores itaque ratione laudantium nisi tempora sint porro
+            aliquid in dolore?</p>
+        <div class="review-stars">
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>-Robert Smile</p>
+        </div>
+    </section>
+
+
+    <section class="options-content">
+        <div class="options-box">
+            <h4 class="options-title">Unlock full Power</h4>
+            <p class="options-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid in
+                praesentium maiores magnam corporis.</p>
+        </div>
+        <div class="options--container">
+            <div class="basic">
+                <div class="basic-box">
+                    <p class="price__title">Basic</p>
+                    <p class="basic__price">$06</p>
+                </div>
+                <div class="price__text">
+                    <ul>
+                        <li>One User</li>
+                        <li>1000 ui elements</li>
+                        <li>Webmail Support</li>
+                        <li>100GB Cloud Storage</li>
+                    </ul>
+                </div>
+                <div class="log-button">
+                    <button class="price__log"> Get Now</button>
+                </div>
+            </div>
+            <div class="team">
+                <div class="team-box">
+                    <p class="price__title">Team</p>
+                    <p class="team__price">$06</p>
+                </div>
+                <div class="price__text">
+                    <ul>
+                        <li>One User</li>
+                        <li>1000 ui elements</li>
+                        <li>Webmail Support</li>
+                        <li>100GB Cloud Storage</li>
+                        <li>Unlimmited Users Limit</li>
+                    </ul>
+                </div>
+                <div class="log-button">
+                    <button class="price__log"> Get Now</button>
+                </div>
+            </div>
+            <div class="business">
+                <div class="business-box">
+                    <p class="price__title">Business</p>
+                    <p class="business__price">$06</p>
+                </div>
+                <div class="price__text">
+                    <ul>
+                        <li>One User</li>
+                        <li>1000 ui elements</li>
+                        <li>Webmail Support</li>
+                        <li>100GB Cloud Storage</li>
+                    </ul>
+                </div>
+                <div class="log-button">
+                    <button class="price__log"> Get Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <h3 class="content__title">Get start from now <br> and increase productivity</h3>
+        <div class="content__pictures">
+            <img src="./images/app.svg">
+            <img src="./images/play.svg">
+        </div>
+    </section>
+
+    <section class="footer__content">
+        <h3 class="footer__title">AppLab</h3>
+        <p class="footer__text">Firmament morning sixth subdue darkness creeping gathered divide. </p>
+        <div class="footer__pictures">
+            <div class="footer__pictures--facebook">
+                <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="footer__pictures--twitter">
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div class="footer__pictures--instagram">
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+        <h4 class="title">Services</h4>
+        <div class="footer__options">
+            <ul>
+                <li>Team management</li>
+                <li>Collaboration</li>
+                <li>Todo</li>
+                <li>Events</li>
+            </ul>
+        </div>
+        <h4 class="title">Useful Links</h4>
+        <div class="footer__options">
+            <ul>
+                <li>Pricing</li>
+                <li>Features</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <h4 class="title">Downloads</h4>
+        <div class="footer__options">
+            <ul>
+                <li>Downloads from Apple Store</li>
+                <li>Downloads from Play Store</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="footer__container">
+        <p class="footer__copyrights--cell">Copyright&copy;2020 All rights reserved | This template is made with
+            <i class="far fa-heart"></i> by <br>
+        <div id="color">Colorib</div>
+        </p>
+    </section>
 
 </body>
 
