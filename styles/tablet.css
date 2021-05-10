@@ -1,0 +1,150 @@
+@media (min-width:900px) {
+    body {
+        font-family:'poppinsthin';
+        }
+    /*applab__container*/
+
+    .applab__container {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    .applab__container--right img {
+        height: 600px;
+        width: 450px;
+    }
+    /*content__features*/
+
+    .features__container {
+        display: flex;
+        justify-content: space-around;
+        padding:20px;
+    }
+
+
+    .header__features {
+        font-size: 60px;
+        padding-right: 250px;
+        padding-left: 250px;
+    }
+    .content__header {
+        font-size: 25px;
+    }
+
+    .content__features {
+        height: 550px;
+    }
+
+    /*features container--box*/
+
+    .features container--box {
+        height: 500px;
+        
+        }
+        .box-image img {
+            width: 80%;
+        }
+        
+        .box, .box-image {
+            display: inline-block;
+            justify-content: space-around;
+            padding-left: 80px;
+            padding-bottom: 100px;
+        }
+        
+        .box {
+            width: 40%;
+        padding-left: 70px;
+        }
+    
+        .features__title {
+            font-size: 35px;
+        }
+
+        .button-button {
+            font-size: 20px;
+        }
+
+   
+    /*review*/
+    .review {
+        height: 500px;
+    }
+    .review img {
+        height: 500px;
+        width: auto;
+    }
+    .review-picture {
+    padding:80px;
+    }
+
+    .review-title {
+        font-size: 45px;
+    }
+
+    .review-text {
+        font-size: 25px;
+    }
+    .stars {
+    font-size: 25px;
+}
+    .review-stars p {
+        font-size: 30px;
+    }
+
+    /*options-content*/
+
+
+    .options-title {
+        font-size: 40px;
+    }
+    .options-text {
+        font-size: 25px;
+    }
+
+    .price__title, .basic__price, .team__price, .business__price {
+        font-size: 25px;
+        opacity: 0.9;
+    }
+
+    .price__text {
+        font-size: 20px;
+    }
+
+    .price__log {
+        font-size: 20px;
+    }
+    .options--container {
+        display: flex;
+        height: 55vh;
+    }
+    .basic, .team, .business {
+        width: 50%;
+    }
+
+    .team {
+        padding-bottom: 30px;
+    }
+
+    /*content*/
+    .content {
+        height: 400px;
+    }
+    .content__title {
+        padding-top: 120px;
+        text-align: start;
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        line-height: 40px;
+        
+    }
+    .content__pictures img {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 60px;
+        padding-left: 15px;
+    }
+
+}
