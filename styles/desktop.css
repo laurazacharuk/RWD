@@ -11,6 +11,7 @@ body {
 
 .download__button {
 padding-right: 30px;
+padding-top: 15px;
   }
 
 .intro__button {
@@ -18,9 +19,11 @@ padding-right: 30px;
     border-radius: 4px;
     border: #42B3FA;
     color: white;
+    font-size: 20px;
     padding:10px;
     padding-left: 30px;
     padding-right: 30px;
+    display: block;
   }
   
   .header__nav {
@@ -70,15 +73,17 @@ padding-right: 30px;
   
 
 .applab__container{
-    background-image: url('./images/banner/banner.png');
-    height: 600px;
+    background-image: url('./../images/banner/banner.png');
+    height: 915px;
+    background-color: white;
     position: relative;
 
 }
 
 .applab__container--left {
     color: white;
-    padding-top: 200px;
+    padding-top: 250px;
+    padding-left: 30px;
 }
 
 .button {
@@ -103,13 +108,18 @@ padding-right: 30px;
 }
 
 .applab__container--right img{
-    position: absolute;
-    top: 100px;
-    right: 30px;
+    height: 700px;
+    width: 550px;
+    right: 0;
+    bottom: -20px;
 }
 
 .button {
     font-size: 20px;
+}
+
+.transition-bar {
+    display: none;
 }
 
 /*features container--box*/
@@ -120,14 +130,19 @@ padding-bottom: 50px;
 }
 .box-image img {
     width: 100%;
+    position: relative;
+    right: 40px;
+    top: 50px;
 }
 
 .box-image {
     position: absolute;
-    right: 30px;
+    right: 0px;
 }
 .box, .box-image {
     display: inline-block;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .box {
@@ -140,6 +155,16 @@ padding-left: 70px;
 .review {
     height: 500px;
     margin-top: 50px;
+    overflow: hidden;
+}
+
+.review img {
+    opacity: 0.2;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+
 }
 .features__title {
     font-size: 40px;
@@ -167,36 +192,49 @@ padding-left: 70px;
     height: 550px;
 }
 
+/*content*/
+
 .content{
     height: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-right: 30px;
 }
 .content__title  {
     font-size: 50px;
     line-height: 40px;
     padding-top: 30px;
-
 }
-
+.content__pictures {
+    padding-top: 30px;
+    padding-right: 30px;
+}
 .content__features {
     height: 600px;
+    padding-top: 70px;
 }
 
 
-/*footer__content*/
+.team {
+    position: relative;
+    top:-20px;
+}
+
+/*footer*/
 
 .footer__content {
-    height: 500px;
-    
+    height: 400px;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 80px;
 }
 .flexbox-content {
-    width: 50%;
-    padding-top: 30px;
+    width: 40%;
+    position: relative;
+    top: -30px;
 }
 
 .footer__title {
@@ -206,22 +244,31 @@ padding-left: 70px;
 .footer__text {
     font-size: 20px;
 }
+.title {
+    font-size: 25px;
+}
 
 .footer__content--box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 1rem;
-    margin:0;
-}
-.flexbox-content, .flexbox {
-    display: inline-block;
-    align-items: baseline;
-    justify-content: space-around;
+    padding-bottom: 100px;
 }
 
-.footer-box {
-    width: 70%;
+
+.footer__container {
+    font-size: 20px;
+    height: 100px;
 }
 
- 
+.footer__copyrights--cell {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color {
+    padding-left: 5px;
+}
+
 }

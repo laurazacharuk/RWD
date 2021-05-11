@@ -499,6 +499,7 @@ align-content: center;
     padding-top: 30px;
 }
 
-#color {
+.color {
     color: #1F6ED4;
+    display: block;
 }
