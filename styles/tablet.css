@@ -9,10 +9,22 @@
         height: 915px;
         position: relative;
         background-color: white;
+        background-repeat: no-repeat;
     }
 
     .applab__container--left {
         padding-top: 200px;
+        padding-left: 40px;
+    }
+
+    .applab__title {
+        font-size: 40px;
+    }
+    .applab__desc {
+        font-size: 25px;
+    }
+    .button {
+        font-size: 20px;
     }
     .applab__container--right img {
         height: 600px;
@@ -53,34 +65,34 @@
         height: 600px;
         padding-bottom: 50px;
         }
-        .box-image img {
-            width: 70%;
-            position: relative;
-            right:-80px;
-        }
-        .box-image{
-            position: absolute;
-            right: 0;
-    
-        }
-        .box, .box-image {
-            display: inline-block;
-            padding-bottom: 100px;
-            padding-top: 100px;
-        }
-        
-        .box {
-            width: 40%;
-            padding-left: 70px;
-        }
-    
-        .features__title {
-            font-size: 35px;
-        }
+    .box-image img {
+        width: 70%;
+        position: relative;
+        right:-80px;
+    }
+    .box-image{
+        position: absolute;
+        right: 0;
 
-        .button-button {
-            font-size: 20px;
-        }
+    }
+    .box, .box-image {
+        display: inline-block;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    
+    .box {
+        width: 40%;
+        padding-left: 70px;
+    }
+
+    .features__title {
+        font-size: 35px;
+    }
+
+    .button-button {
+        font-size: 20px;
+    }
 
    
     /*review*/
@@ -92,7 +104,7 @@
         width: auto;
     }
     .review-picture {
-    padding:80px;
+        padding:80px;
     }
 
     .review-title {
@@ -168,36 +180,30 @@
 
     /*footer__content*/
 
-.footer__content {
+.footer__content{
     height: 600px;
     display: flex;
     flex-wrap: wrap;
 }
 
 
-.footer__title {
-    font-size: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
+.flexbox-content {
+   width: 50%;
 }
 
-.flexbox-content {
-    width: 50%;
+.footer__content--box {
+   width: 50%;
+}
+.footer__title {
+    font-size: 30px;
 }
 .footer__text {
     font-size: 20px;
 }
 
-.footer__content--box{
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .footer__container {
     font-size: 20px;
-height: 70px;
+    height: 70px;
 }
 
 .footer__copyrights--cell {
@@ -210,3 +216,4 @@ height: 70px;
     padding-left: 5px;
 }
 }
+

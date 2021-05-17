@@ -77,6 +77,7 @@ padding-top: 15px;
     height: 915px;
     background-color: white;
     position: relative;
+    background-repeat: no-repeat;
 
 }
 
@@ -232,7 +233,7 @@ padding-left: 70px;
     padding-left: 80px;
 }
 .flexbox-content {
-    width: 40%;
+    width: 35%;
     position: relative;
     top: -30px;
 }
@@ -253,12 +254,13 @@ padding-left: 70px;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 1rem;
     padding-bottom: 100px;
+    padding-left: 50px;
 }
 
 
 .footer__container {
     font-size: 20px;
-    height: 100px;
+    height: 80px;
 }
 
 .footer__copyrights--cell {
