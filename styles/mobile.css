@@ -69,6 +69,7 @@ body {
     width: 100%;
     margin-top: 10px;
   }
+
   nav .nav-list>li {
     display: block;
     margin: 5px;
@@ -76,6 +77,7 @@ body {
     text-align: center;
     border: 3px solid #e9e4ee;
   }
+
   nav a {
     background: transparent;
     text-align: center;
@@ -264,9 +266,7 @@ background-size: 100%; }
     background-size: contain;
     position: absolute;
     z-index: -1;
-    height: 350px;
- 
-    
+    height: 350px; 
 }
 
 .review-picture-opacity {
@@ -401,7 +401,6 @@ font-size: 20px;
 .price__text li {
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 
 .basic, .team, .business {
@@ -414,7 +413,6 @@ font-size: 20px;
 .content {
     height: 300px;
     background-color: #6DB9FE;
-
 }
 
 .content__title {
@@ -424,7 +422,6 @@ font-size: 20px;
     padding-bottom: 30px;
     line-height: 30px;
     text-align: center;
-
 }
 
 .content__pictures {
@@ -446,7 +443,6 @@ align-content: center;
     font-size: 25px;
     padding-top: 40px;
     padding-bottom: 30px;
-
 }
 
 .footer__text {
@@ -459,8 +455,6 @@ align-content: center;
     padding-bottom: 10px;
     display: flex;
     text-align: center;
-
-
 }
 
 .footer__pictures--facebook,.footer__pictures--twitter, .footer__pictures--instagram {

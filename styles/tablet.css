@@ -10,6 +10,7 @@
         position: relative;
         background-color: white;
         background-repeat: no-repeat;
+        background-position: bottom left;
     }
 
     .applab__container--left {
@@ -64,13 +65,14 @@
     .features container--box {
         height: 600px;
         padding-bottom: 50px;
-        }
+    }
+
     .box-image img {
         width: 70%;
         position: relative;
         right:-80px;
     }
-    .box-image{
+    .box-image {
         position: absolute;
         right: 0;
 
@@ -94,7 +96,6 @@
         font-size: 20px;
     }
 
-   
     /*review*/
     .review {
         height: 500px;
@@ -180,40 +181,53 @@
 
     /*footer__content*/
 
-.footer__content{
-    height: 600px;
-    display: flex;
-    flex-wrap: wrap;
-}
+    .footer__content{
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-left: 70px;
+    }
 
 
-.flexbox-content {
-   width: 50%;
-}
+    .flexbox-content {
+    width: 50%;
+    }
 
-.footer__content--box {
-   width: 50%;
-}
-.footer__title {
-    font-size: 30px;
-}
-.footer__text {
-    font-size: 20px;
-}
+    .footer__content--box {
+    width: 50%;
+    }
+    .footer__title {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .title {
+        padding-bottom: 40px;
+    }
+    .footer__text {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    .footer__pictures {
+        padding-top: 50px;
+    }
 
-.footer__container {
-    font-size: 20px;
-    height: 70px;
-}
+    .footer__options {
+        font-size: 20px;
+    }
+    .footer__container {
+        font-size: 20px;
+        height: 70px;
+    }
 
-.footer__copyrights--cell {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.color {
-    padding-left: 5px;
-}
-}
+    .footer__copyrights--cell {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .color {
+        padding-left: 5px;
+    }
+    }
 
