@@ -165,7 +165,7 @@ padding-left: 70px;
     z-index: -1;
     left: 0;
     right: 0;
-
+    width: 100%;
 }
 .features__title {
     font-size: 40px;
